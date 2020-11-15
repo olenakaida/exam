@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+  font-family: "Aleo", serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+.jumbotron {
+  background: url(img/bg-mountain.png) no-repeat center;
+  background-size: cover;
+  min-height: 740px;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  padding-top: 13%;
+  margin: 0;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+.navbar__item {
+  color: #ffffff;
+  font-family: "Aleo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0 1.4rem;
+}
+.navbar__item > a {
+  color: #ffffff;
+}
+.navbar__item--bhromaon {
+  padding-right: 26.8125rem;
+  padding-left: 0;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.section {
+  background: no-repeat center;
+  background-size: cover;
+  background-position: center;
+  padding: 7.5rem 20.625rem;
+}
+.section-navbar {
+  background: #5474fd;
+  background-size: cover;
+  min-height: 80px;
+  width: 100%;
+  padding: 0rem 20.625rem;
+}
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+.section-choose {
+  background: url(img/bg-roof.png) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  min-height: 685px;
+  width: 100%;
+}
+.section-search {
+  position: relative;
+  background: #333333;
+  min-height: 337px;
+  &__icon {
+    margin-bottom: 0.9375rem;
+    font-size: 5em;
+    font-weight: 200;
+  }
+  &__icon:hover {
+    color: #ffffff;
+  }
+  &__link-icon {
+    text-decoration: none;
+    color: #e8e8e8;
+    font-family: "Aleo";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+  }
+  &__link-icon:hover {
+    color: rgb(236, 158, 158);
+    text-decoration: none;
+  }
+}
+.fa-search {
+  color: #5474fd;
+}
+.fa-check-circle {
+  color: #ff6363;
+}
+.fa-thumbs-up {
+  color: #00a2ff;
+}
+.icon-header {
+  color: white;
+  padding: 0 1rem;
+}
+.section-spain--left {
+  background: url(img/bg-house.png) no-repeat center;
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  padding-top: 14.3125rem;
+}
+.section-spain--right {
+  background: url(img/bg-rocks.png) no-repeat center;
+  background-size: cover;
+  min-height: 700px;
+  max-width: 100%;
+  padding-top: 14.3125rem;
+}
+.section-reviews {
+  background: url(img/bg-man.png) no-repeat center;
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+}
+.footer {
+  background-color: #232323;
+  background-size: cover;
+  min-height: 268px;
+  max-width: 100%;
+  padding: 7.5rem 20.625rem;
+}
+.social-icon {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #e8e8e8;
+}
+.social-icon:hover {
+  color: #5474fd;
+}
+
+.card {
+  background-color: #232323;
+  opacity: 0.9;
+  &__spain {
+    min-height: 371px;
+  }
+}
+.card-choose {
+  text-decoration: none;
+}
+.btn {
+  text-decoration: none;
+  background-color: #5474fd;
+  color: #ffffff;
+  border-radius: 0%;
+  border: #5474fd 1px solid;
+  font-family: "Aleo";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.btn-main {
+  padding: 1.43rem 3.5rem;
+  margin: 1.875rem 0;
+}
+.title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+
+  &__header {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+  }
+  &__reviews {
+    font-family: "Aleo";
+    margin-bottom: 5.875rem;
+  }
+  &__footer {
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+.subtitle-card {
+  color: #fefefe;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  &__spain {
+    padding: 1.875rem 0;
+    text-transform: uppercase;
+  }
+}
+.text {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  &__header {
+    letter-spacing: 6.82px;
+    color: #ffffff;
+    padding: 1% 0 2% 0;
+  }
+  &__form-control {
+    letter-spacing: 2.8px;
+    font-size: 14px;
+  }
+  &__scroll {
+    letter-spacing: 2.8px;
+  }
+  &__footer {
+    letter-spacing: 1.6px;
+    line-height: normal;
+  }
+  &__card-spain {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding-top: 1.875rem;
+  }
+}
+
+.header-form {
+  text-decoration: none;
+  padding: 1.875rem 0;
+  border: none;
+}
+.header-scroll {
+  margin-top: 5%;
+}
+.header-scroll:hover {
+  cursor: pointer;
+  transform: translateY(30%);
+  transition: 0.5s linear;
+}
+.reviews-block {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.card-body-info {
+  background-color: #333333;
+  padding: 5%;
+}
+.quote-icon {
+  display: inline-block;
+  color: #5474fd;
+  padding: 10px 10px 10px 0;
+}
+.card__spain {
+  max-width: 33.75rem;
+  height: auto;
+}
+
+.card-body {
+  padding: 1.875rem;
+  &__choose {
+    padding: 0;
+    padding-top: 5.25rem;
+  }
+}
+
+.search-container {
+  background: white;
+  padding: 0.2rem 0;
+}
+
+.title-block {
+  color: #ffffff;
+  font-family: "Aleo";
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.info-block {
+  width: 33.75rem;
+  height: auto;
+}
+
+.card-choose {
+  background: none;
+  border: none;
+  padding-top: 4.25rem;
+}
+.img-block {
+  width: 33rem;
+  height: auto;
+  padding-left: 2rem;
+}
+
+.img__left {
+  padding-right: 0;
+  padding-bottom: 0.5rem;
+}
+.img__right {
+  padding-left: 7.55rem;
+}
+.navbar {
+  text-decoration: none;
+  background-color: #5474fd;
+}
+
+@media only screen and (max-width: 1440px) {
+  .section {
+    padding: 7.5rem 10%;
+  }
+
+  .section-navbar {
+    padding: 0rem 5rem;
+  }
+
+  .navbar__item--bhromaon {
+    padding-right: 0;
+  }
+  .section-search__icon {
+    font-size: 4em;
+  }
+  .section-search__link-icon {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    padding-top: 30%;
+    height: 440px;
+  }
+  .header-scroll {
+    margin-top: 12%;
+  }
+  .card-body__choose {
+    padding: 0;
+    padding-top: 0;
+  }
+  .footer {
+    padding: 2.5rem 10%;
+  }
+  .img-fluid,
+  .img-block {
+    display: none;
+  }
+  .section-search {
+    min-height: 137px;
+    padding: 4rem 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 30%;
+    height: 240px;
+  }
+
+  .section {
+    padding: 4.5rem 8%;
+  }
+  .header-scroll {
+    margin-top: 30%;
+  }
+  .section-navbar {
+    padding: 0rem 5rem;
+  }
+
+  .navbar__item--bhromaon {
+    padding-right: 0;
+  }
+  .section-search__icon {
+    font-size: 2.5em;
+  }
+  .section-search__link-icon {
+    font-size: 16px;
+  }
+  .section-reviews {
+    min-height: 400px;
+  }
+  .section-choose {
+    min-height: 385px;
+  }
+  .footer {
+    padding: 2.5rem 10%;
+    min-height: 168px;
+  }
+  .section-spain--right,
+  .section-spain--left {
+    min-height: 400px;
+  }
+  .img-fluid {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .jumbotron {
+    padding-top: 40%;
+    height: 90px;
+  }
+
+  .header-scroll {
+    margin-top: 50%;
+  }
+  .section-navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .jumbotron {
+    padding-top: 40%;
+    height: 40px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .section {
+    padding: 1.5rem 5%;
+  }
+  .text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .text__header {
+    letter-spacing: 0.82px;
+
+    padding: 1% 2% 10% 0;
+  }
+  #button-addon2 {
+    padding: 0;
+  }
+  .btn-main {
+    padding: 0.43rem 0.5rem;
+    margin: 0.875rem 0;
+  }
+  .title__reviews {
+    margin-bottom: 1.5rem;
+  }
+  .section-search__icon {
+    font-size: 1.5em;
+  }
+  .section-search__link-icon {
+    font-size: 10px;
+  }
+  .title-block {
+    font-size: 26px;
+    padding-bottom: 2rem;
+  }
+}
